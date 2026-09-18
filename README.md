@@ -19,7 +19,7 @@ Pkg.add(["JuMP", "Ipopt"])
 
 ---
 
-## Quick Start
+## Example
 
 ```julia
 
@@ -33,7 +33,7 @@ BWM(BO, OW)
 
 ---
 
-## Results
+## Example Results
 ```julia
 Number of criteria: 5
 The best criterion: C2
