@@ -33,6 +33,37 @@ BWM(BO, OW)
 
 ---
 
+## Results
+```julia
+Number of criteria: 5
+The best criterion: C2
+The worst criterion: C5
+Value of the best-worst comparison: 7.0
+
+The Euclidean BWM results are as follows:
+	 w1 = 0.23025
+	 w2 = 0.39989
+	 w3 = 0.08859
+	 w4 = 0.23025
+	 w5 = 0.05101
+	 xi = 2.49019
+	 consistency index = 9.79796
+	 the consistency ratio = xi/consistency index = 0.25415
+	 Total Deviation = 0.69059
+
+The linear Chebyshev BWM results are as follows:
+	 w1 = 0.18438
+	 w2 = 0.46638
+	 w3 = 0.11063
+	 w4 = 0.18438
+	 w5 = 0.05423
+	 xi = 0.08677
+	 max xi = 0.23729
+	 the actual consistency ratio = xi/max xi = 0.36566
+	 Total Deviation = 1.22197
+```
+---
+
 ## Citation
 
 If you use this repository or any part of these models in your research, please cite the corresponding original papers:
