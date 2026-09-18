@@ -22,7 +22,6 @@ Pkg.add(["JuMP", "Ipopt"])
 ## Quick Start
 
 ```julia
-include("src/BWM.jl")
 
 # Best-to-Others (BO) and Others-to-Worst (OW) comparison vectors
 BO = [3, 1, 5, 3, 7]
